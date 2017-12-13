@@ -790,8 +790,8 @@
         
         CGFloat w = kSquareWH * kColumnCount;
         CGFloat h = kSquareWH * kRowCount;
-        CGFloat x = 0;
-        CGFloat y = 100;
+        CGFloat x = 20;
+        CGFloat y = 50;
         
         _squareRoomView = [[UIView alloc] init];
         _squareRoomView.frame = CGRectMake(x, y, w, h);
